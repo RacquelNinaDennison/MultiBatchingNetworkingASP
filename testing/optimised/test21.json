@@ -1,0 +1,41 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "optimised_files/optimised_instances.lp","optimised_files/optimised_second.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 1.477,
+          "Value": [
+            "flow(l1,l2,p2,10)", "flow(l1,l3,p1,6)", "flow(l1,l3,p2,20)", "flow(l1,l4,p1,4)", "flow(l1,l4,p2,10)", "flow(l2,l3,p1,3)", "flow(l2,l6,p1,17)", "flow(l3,l5,p1,6)", "flow(l3,l5,p2,10)", "flow(l3,l6,p1,3)", "flow(l3,l6,p2,10)", "flow(l4,l5,p1,4)", "flow(l4,l5,p2,10)", "transportLink(l1,l3,p1,tr1,0)", "transportLink(l1,l3,p1,tr2,1)", "transportLink(l1,l3,(p1,p2),tr2,0)", "transportLink(l1,l3,(p1,p1),tr2,0)", "transportLink(l1,l3,(p2,p1),tr2,0)", "transportLink(l1,l3,(p1,p1),tr1,0)", "transportLink(l1,l3,(p1,(p1,p1)),tr2,1)", "transportLink(l1,l3,(p2,(p1,p2)),tr1,0)", "transportLink(l1,l3,(p1,(p1,(p1,p2))),tr2,0)", "transportLink(l1,l3,(p1,(p2,(p2,p2))),tr2,1)", "transportLink(l1,l3,(p2,(p2,(p2,p1))),tr2,1)", "transportLink(l1,l4,p1,tr2,0)", "transportLink(l1,l4,(p1,p2),tr1,1)", "transportLink(l1,l4,(p2,p1),tr1,1)", "transportLink(l1,l4,(p2,(p2,p1)),tr1,1)", "transportLink(l1,l4,(p2,(p1,p2)),tr1,1)", "transportLink(l2,l3,p1,tr1,1)", "transportLink(l2,l3,(p1,p1),tr1,1)", "transportLink(l2,l6,p1,tr2,0)", "transportLink(l2,l6,(p1,p1),tr2,1)", "transportLink(l2,l6,(p1,(p1,p1)),tr2,5)", "transportLink(l3,l5,p1,tr1,0)", "transportLink(l3,l5,p1,tr2,0)", "transportLink(l3,l5,(p1,p2),tr1,1)", "transportLink(l3,l5,(p1,p1),tr1,1)", "transportLink(l3,l5,(p2,(p2,p1)),tr1,1)", "transportLink(l3,l5,(p1,(p2,p2)),tr1,1)", "transportLink(l3,l5,(p2,(p1,p2)),tr1,1)", "transportLink(l3,l5,(p1,(p2,p2)),tr2,0)", "transportLink(l3,l6,p1,tr1,1)", "transportLink(l3,l6,(p1,p2),tr1,0)", "transportLink(l3,l6,(p2,p1),tr1,0)", "transportLink(l3,l6,(p2,(p2,p1)),tr1,0)", "transportLink(l3,l6,(p1,(p2,p1)),tr2,0)", "transportLink(l3,l6,(p1,(p2,p2)),tr1,1)", "transportLink(l3,l6,(p2,(p1,p2)),tr1,1)", "transportLink(l3,l6,(p1,(p1,(p1,p2))),tr2,0)", "transportLink(l3,l6,(p2,(p1,(p1,p2))),tr2,0)", "transportLink(l4,l5,(p1,p2),tr1,1)", "transportLink(l4,l5,(p1,p1),tr1,0)", "transportLink(l4,l5,(p2,p1),tr1,1)", "transportLink(l4,l5,(p1,(p2,p2)),tr1,1)", "transportLink(l4,l5,(p2,(p1,p2)),tr1,1)", "transportLink(l1,l2,p2,tr1,0)", "transportLink(l1,l2,(p2,p2),tr1,2)", "transportLink(l1,l2,(p2,(p2,p2)),tr1,2)", "transportLink(l1,l2,(p2,(p2,(p2,(p2,p2)))),tr2,0)", "transportLink(l1,l3,p2,tr1,0)", "transportLink(l1,l3,p2,tr2,0)", "transportLink(l1,l3,(p2,p2),tr2,1)", "transportLink(l1,l3,(p2,p2),tr1,0)", "transportLink(l1,l3,(p2,(p2,p2)),tr1,0)", "transportLink(l1,l3,(p2,(p2,p2)),tr2,1)", "transportLink(l1,l3,(p2,(p2,(p2,p2))),tr2,1)", "transportLink(l1,l3,(p2,(p2,(p2,(p2,p2)))),tr2,1)", "transportLink(l1,l4,p2,tr1,1)", "transportLink(l1,l4,p2,tr2,0)", "transportLink(l1,l4,(p2,p2),tr1,0)", "transportLink(l1,l4,(p2,(p2,p2)),tr1,1)", "transportLink(l1,l4,(p2,(p2,p2)),tr2,0)", "transportLink(l1,l4,(p2,(p2,(p2,p2))),tr2,0)", "transportLink(l1,l4,(p2,(p2,(p2,(p2,p2)))),tr2,0)", "transportLink(l3,l5,p2,tr1,1)", "transportLink(l3,l5,(p2,p2),tr1,1)", "transportLink(l3,l5,(p2,(p2,p2)),tr1,0)", "transportLink(l3,l6,p2,tr1,1)", "transportLink(l3,l6,(p2,p2),tr1,1)", "transportLink(l3,l6,(p2,(p2,p2)),tr1,1)", "transportLink(l4,l5,p2,tr1,1)", "transportLink(l4,l5,(p2,p2),tr1,0)", "transportLink(l4,l5,(p2,(p2,p2)),tr1,1)"
+          ],
+          "Costs": [
+            2072
+          ]
+        }
+      ],
+      "Stop": 1.501
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 76,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 1,
+    "Costs": [
+      2072
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 1.501,
+    "Solve": 1.205,
+    "Model": 0.155,
+    "Unsat": 0.024,
+    "CPU": 1.501
+  }
+}
