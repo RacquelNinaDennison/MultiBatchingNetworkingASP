@@ -1,0 +1,41 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "naive-encoding/instance.lp","naive-encoding/encoding.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 2.236,
+          "Value": [
+            "flow(l1,l2,p2,10)", "flow(l1,l3,p1,5)", "flow(l1,l3,p2,18)", "flow(l1,l4,p1,5)", "flow(l1,l4,p2,12)", "flow(l2,l3,p1,2)", "flow(l2,l6,p1,18)", "flow(l3,l5,p1,5)", "flow(l3,l5,p2,8)", "flow(l3,l6,p1,2)", "flow(l3,l6,p2,10)", "flow(l4,l5,p1,5)", "flow(l4,l5,p2,12)", "transportLink(l1,l3,p1,tr2,1)", "transportLink(l1,l3,(p2,(p1,(p2,p2))),tr2,1)", "transportLink(l1,l3,(p1,(p1,(p2,p1))),tr2,1)", "transportLink(l1,l4,(p1,p2),tr1,1)", "transportLink(l1,l4,(p2,p1),tr1,1)", "transportLink(l1,l4,(p2,(p2,p1)),tr1,1)", "transportLink(l1,l4,(p1,(p2,p2)),tr1,1)", "transportLink(l1,l4,(p2,(p1,p2)),tr1,1)", "transportLink(l2,l3,(p1,p1),tr1,1)", "transportLink(l2,l6,p1,tr2,18)", "transportLink(l3,l5,p1,tr1,1)", "transportLink(l3,l5,(p1,p1),tr1,1)", "transportLink(l3,l5,(p2,(p2,p1)),tr1,1)", "transportLink(l3,l5,(p1,(p2,p2)),tr1,1)", "transportLink(l3,l6,(p1,(p2,p2)),tr1,1)", "transportLink(l3,l6,(p2,(p1,p2)),tr1,1)", "transportLink(l4,l5,(p1,p1),tr1,1)", "transportLink(l4,l5,(p2,(p2,p1)),tr1,1)", "transportLink(l4,l5,(p1,(p2,p2)),tr1,1)", "transportLink(l4,l5,(p2,(p1,p2)),tr1,1)", "transportLink(l1,l2,(p2,p2),tr1,2)", "transportLink(l1,l2,(p2,(p2,p2)),tr1,2)", "transportLink(l1,l3,(p2,p2),tr2,1)", "transportLink(l1,l3,(p2,(p2,p2)),tr2,1)", "transportLink(l1,l3,(p2,(p2,(p2,p2))),tr2,1)", "transportLink(l1,l3,(p2,(p2,(p2,(p2,p2)))),tr2,1)", "transportLink(l1,l4,p2,tr1,1)", "transportLink(l1,l4,(p2,(p2,p2)),tr1,1)", "transportLink(l3,l5,p2,tr1,1)", "transportLink(l3,l5,(p2,(p2,p2)),tr1,1)", "transportLink(l3,l6,p2,tr1,1)", "transportLink(l3,l6,(p2,p2),tr1,1)", "transportLink(l3,l6,(p2,(p2,p2)),tr1,1)", "transportLink(l4,l5,p2,tr1,1)", "transportLink(l4,l5,(p2,p2),tr1,1)", "transportLink(l4,l5,(p2,(p2,p2)),tr1,1)"
+          ],
+          "Costs": [
+            2072
+          ]
+        }
+      ],
+      "Stop": 2.318
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 52,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 1,
+    "Costs": [
+      2072
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 2.318,
+    "Solve": 1.227,
+    "Model": 0.081,
+    "Unsat": 0.081,
+    "CPU": 2.312
+  }
+}

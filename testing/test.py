@@ -17,6 +17,8 @@ def average_call_time(folder: str):
 def main():
     average_call_time("naive")
     average_call_time("optimised")
+    average_call_time("save-tuning/naive")
+    average_call_time("save-tuning/optimised")
     
 if __name__ == "__main__":
     main()

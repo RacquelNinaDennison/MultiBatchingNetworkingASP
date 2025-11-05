@@ -17,7 +17,7 @@
           ]
         }
       ],
-      "Stop": 1.502
+      "Stop": 1.501
     }
   ],
   "Result": "OPTIMUM FOUND",
@@ -32,10 +32,10 @@
   },
   "Calls": 1,
   "Time": {
-    "Total": 1.501,
-    "Solve": 1.204,
-    "Model": 0.156,
-    "Unsat": 0.024,
-    "CPU": 1.501
+    "Total": 1.500,
+    "Solve": 1.211,
+    "Model": 0.154,
+    "Unsat": 0.023,
+    "CPU": 1.500
   }
 }
