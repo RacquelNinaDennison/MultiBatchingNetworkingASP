@@ -4,15 +4,14 @@
 
 % #const N = 10. 
 % represent the number of products which can be transported
-numberOfTransportedProducts(1..20). 
+numberOfTransportedProducts(0..20). 
 
 % reduce the predicate sizes
 
 transportedOnRoute(P,RouteId) :- routeID(RouteId), part(P), routeTransportResource(RouteId,TR), partTR(P,TR). 
 
-
-{packedOnRoute(P,RouteId,N) : numberOfTransportedProducts(N)} :- transportedOnRoute(P,RouteId).
-:- packedOnRoute(P,RouteId,N1), packedOnRoute(P,RouteId,N2), N1 != N2.
+{ packedOnRoute(P,R,N) : numberOfTransportedProducts(N) } :- transportedOnRoute(P,R).
+:- packedOnRoute(P,R,N1), packedOnRoute(P,R,N2), N1 != N2.
 
 packageSize(RouteId,Size,P) :- packedOnRoute(P,RouteId,N) , partSize(P,S), Size= N*S.
 
