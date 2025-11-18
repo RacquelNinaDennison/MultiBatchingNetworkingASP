@@ -1,3 +1,5 @@
+
+
 1{flow(From,From,Part,N):offer(Part,From,N)}1 :- offer(Part,From,N), root(Part).
 1{transportLink(From,From,intrasite,N)}1 :- flow(From,From,Part,N), root(Part).
 1{assign(Part,intrasite,N)}1 :- flow(From,From,Part,N),root(Part).
